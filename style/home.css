@@ -1,0 +1,92 @@
+/* UET introduction */
+table {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+}
+table, td{
+    border: 3px solid white;
+    text-align: center;
+    background-color: #89d6fb;
+    text-shadow: solid black;
+}
+table tr:nth-child(odd) td{
+    background-color: #02a9f7;
+}
+table tr td a{
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+table tr td a:hover{
+    background-color: #02577a;
+}
+table tr td a:active{
+    background-color: #01303f;
+}
+
+/* Computer Sience introduction */
+
+
+.csuet > div{
+    margin: 40px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 5px 5px 10px rgba(0, 60, 255, 0.847);
+}
+.curriculum a{
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    display: block;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #01303f;
+}
+.curriculum a:hover{
+    background-color: #02577a;
+}
+.curriculum a:active{
+    background-color: black;
+}
+
+.journey{
+    padding: 10px;
+    margin: 20px;
+}
+.knowledge > article{
+    padding: 10px;
+    margin: 20px;
+    width: 40%px;
+}
+.mainknowledge{
+    float: left;
+}
+
+.subknowledge{
+    float: right;
+}
+
+.newbie{
+    clear: both;
+}
+.newbie a{
+    color: #89d6fb;
+}
+.newbie a:hover{
+    color: #02a9f7;
+}
+.newbie a:active{
+    color:red;
+}
+
+
+

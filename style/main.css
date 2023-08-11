@@ -1,0 +1,107 @@
+/* ovaral style */
+html {
+    font-family: Verdana,sans-serif;
+    color: white;
+    background-color: #202020;
+}
+header {
+    margin: 0px;
+    padding: 20px;
+    background-color: #202020;
+}
+body {
+    margin: 0px;
+}
+main {
+    padding: 20px;
+    background-color: #202020;
+}
+
+footer {
+    padding: 20px;
+    margin-top: 0px;
+    background-color: #202020;
+}
+
+
+/* heading */
+#headinglogo {
+    block-size: 70px;
+    float: left;
+    margin-right: 10px;
+}
+#name {
+    font-size: 36px;
+}
+
+#fullname {
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+#sologan {
+    font-size: 16px;
+    padding-bottom: 10px;
+}
+
+
+/*navigation bar*/
+nav {
+    position: sticky;
+    top: 0px;
+    display: block;
+    border-bottom: 2px solid black;
+    border-top: 1px solid black;
+    box-shadow: 0px 5px 10px rgba(0, 60, 255, 0.847), 0px -5px 10px rgba(255, 0, 0, 0.847);
+}
+.navibar ul{
+    list-style-type: none;
+    background-color:#d4f0fc;
+    padding: 0px;
+    margin: 0px;
+    
+    overflow: hidden;
+    align-items: center;
+}
+.navibar a{
+    color: #202020;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+.navibar a:hover{
+    background-color: #89d6fb;
+}
+.navibar a:active{
+    background-color: #02a9f7;
+}
+.navibar li{
+    float: left;
+}
+
+/* ending */
+footer a{
+    color:#89d6fb;
+}
+footer a:hover{
+    color:#02a9f7;
+}
+footer a:active{
+    color: red;
+}
+
+/* scroll bar */
+*::-webkit-scrollbar {
+    width: 14px;
+}
+*::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background-color: black;
+}
+*::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    border: 3px solid transparent;
+    background-clip: content-box;
+    background-color: #202020;
+}
